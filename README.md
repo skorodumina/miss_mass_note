@@ -1,2 +1,1 @@
-# miss_mass_note
-CLAS12-Note
+This is the CLAS12 Note 2021-002.

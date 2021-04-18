@@ -1,0 +1,30 @@
+
+\appendix
+
+
+%\renewcommand{\thechapter}{A}
+ \refstepcounter{chapter}
+    \makeatletter
+   \renewcommand{\theequation}{\thechapter.\@arabic\c@equation}
+    \makeatother
+\chapter*{Appendices}
+\label{app}
+\addcontentsline{toc}{chapter}{Appendices}
+
+
+
+
+\renewcommand{\thesection}{A}
+ \refstepcounter{section}
+    \makeatletter
+   \renewcommand{\theequation}{\thesection.\@arabic\c@equation}
+    \makeatother
+\section*{Appendix A: ...}
+\label{app_a}
+\addcontentsline{toc}{section}{A: ...g}
+
+
+
+
+
+
